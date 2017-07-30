@@ -56,13 +56,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             displayNotes(notebook: notebook)
         }
     
-        /*
+ /*
         let notebookObject = Notebook(context: persistentContainer.viewContext)
         
-        notebookObject.title = "Large Notebook"//"Places to visit"//"Tanja's Book"//"First Notebook"
+        notebookObject.title = "Change my name" //"Large Notebook"//"Places to visit"//"Tanja's Book"//"First Notebook"
         notebookObject.createdAt = Date() as NSDate?
         
-        for index in 1 ... 25 {
+      (  for index in 1 ... 25 {
             
             let noteObject = Note(context: moc)
             noteObject.content = "Interesting stuff \(index)"
@@ -152,5 +152,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
+    
+
 }
 
